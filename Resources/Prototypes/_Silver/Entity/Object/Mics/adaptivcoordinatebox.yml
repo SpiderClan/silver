@@ -1,0 +1,10 @@
+- type: entity
+  parent: BaseItem
+  id: AdaptiveCoordinateDiskBox
+  name: адаптивный кейс для диска
+  description: Коробка, с блюспейс технологиями, автоматически считывающая координаты, и записывающая их на диск.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/diskcases.rsi
+    state: icon_base
+  - type: AdaptiveCoordinateDiskBox
